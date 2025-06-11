@@ -1,6 +1,6 @@
 {
   "evaluation_info": {
-    "timestamp": "2025-06-10 19:42:50",
+    "timestamp": "2025-06-11 11:37:49",
     "total_questions": 5,
     "configurations_tested": [
       "llama_faiss_mmr",
@@ -12,52 +12,19 @@
   },
   "detailed_metrics": {
     "llama_faiss_mmr": {
-      "avg_query_time": 5.928836393356323,
-      "avg_relevance_score": 0.5205481678247452,
-      "success_rate": 80.0, 
-      "storage_size_mb": 0.7931861877441406,
-      "memory_usage_mb": 1011.42578125,
-      "total_questions": 5,
-      "successful_queries": 4,
-      "query_times": [
-        0.0,
-        9.548108339309692,
-        8.484949588775635,
-        8.852229595184326,
-        2.758894443511963
-      ],
-      "relevance_scores": [
-        0.0,
-        0.4904991537332535,
-        0.7075255215167999,
-        0.6300842761993408,
-        0.7746318876743317
-      ],
-      "cpu_usage_percent": 9.4,
-      "diversity_scores": [
-        0.6186638721032094,
-        0.7142004328288536,
-        0.7330741909662348,
-        0.6677682014854693
-      ],
-      "avg_diversity_score": 0.6834266743459417,
-      "throughput_qps": 0.16866716057818193,
-      "index_build_time": 66.67413258552551
-    },
-    "llama_faiss_similarity": {
-      "avg_query_time": 8.099650669097901,
+      "avg_query_time": 6.152871561050415,
       "avg_relevance_score": 0.6599691718816757,
       "success_rate": 100.0,
       "storage_size_mb": 0.7931861877441406,
-      "memory_usage_mb": 1011.4140625,
+      "memory_usage_mb": 1009.60546875,
       "total_questions": 5,
       "successful_queries": 5,
       "query_times": [
-        11.269487619400024,
-        1.3870856761932373,
-        23.278444051742554,
-        1.8536691665649414,
-        2.709566831588745
+        12.289043188095093,
+        1.6529262065887451,
+        7.200807332992554,
+        1.1720502376556396,
+        8.449530839920044
       ],
       "relevance_scores": [
         0.6971050202846527,
@@ -66,7 +33,7 @@
         0.6300842761993408,
         0.7746318876743317
       ],
-      "cpu_usage_percent": 12.3,
+      "cpu_usage_percent": 15.6,
       "diversity_scores": [
         0.6644257160906746,
         0.6186638721032094,
@@ -75,138 +42,173 @@
         0.6677682014854693
       ],
       "avg_diversity_score": 0.6796264826948883,
-      "throughput_qps": 0.1234621147076427,
-      "index_build_time": 66.67413258552551
+      "throughput_qps": 0.16252573941739823,
+      "index_build_time": 80.17547059059143
     },
-    "llama_chroma_mmr": {
-      "avg_query_time": 0.10068349838256836,
-      "avg_relevance_score": 0.509040673489112,
+    "llama_faiss_similarity": {
+      "avg_query_time": 7.52728419303894,
+      "avg_relevance_score": 0.6599691718816757,
       "success_rate": 100.0,
-      "storage_size_mb": 6.645236968994141,
-      "memory_usage_mb": 1011.60546875,
+      "storage_size_mb": 0.7931861877441406,
+      "memory_usage_mb": 1009.69921875,
       "total_questions": 5,
       "successful_queries": 5,
       "query_times": [
-        0.13091349601745605,
-        0.11135363578796387,
-        0.06739473342895508,
-        0.08157634735107422,
-        0.11217927932739258
+        2.522030830383301,
+        7.101425647735596,
+        17.065649271011353,
+        6.362053632736206,
+        4.585261583328247
+      ],
+      "relevance_scores": [
+        0.6971050202846527,
+        0.4904991537332535,
+        0.7075255215167999,
+        0.6300842761993408,
+        0.7746318876743317
+      ],
+      "cpu_usage_percent": 20.3,
+      "diversity_scores": [
+        0.6644257160906746,
+        0.6186638721032094,
+        0.7142004328288536,
+        0.7330741909662348,
+        0.6677682014854693
+      ],
+      "avg_diversity_score": 0.6796264826948883,
+      "throughput_qps": 0.13285003918475366,
+      "index_build_time": 80.17547059059143
+    },
+    "llama_chroma_mmr": {
+      "avg_query_time": 0.117802095413208,
+      "avg_relevance_score": 0.5094226182598193,
+      "success_rate": 100.0,
+      "storage_size_mb": 6.641330718994141,
+      "memory_usage_mb": 1009.99609375,
+      "total_questions": 5,
+      "successful_queries": 5,
+      "query_times": [
+        0.1347060203552246,
+        0.13225364685058594,
+        0.10564160346984863,
+        0.09292793273925781,
+        0.12348127365112305
       ],
       "relevance_scores": [
         0.5425988665401746,
-        0.35275636496683216,
+        0.3546660888203689,
         0.5571655319980908,
         0.4772234795110802,
         0.615459124429382
       ],
-      "cpu_usage_percent": 15.0,
+      "cpu_usage_percent": 29.6,
       "diversity_scores": [
         0.6669830317384267,
-        0.7453199821351293,
+        0.7527225145580125,
         0.7142004328288536,
         0.7330741909662348,
         0.7593099323792054
       ],
-      "avg_diversity_score": 0.72377751400957,
-      "throughput_qps": 9.932114160359102,
-      "index_build_time": 63.36640787124634
+      "avg_diversity_score": 0.7252580204941466,
+      "throughput_qps": 8.488813348288538,
+      "index_build_time": 80.32469034194946
     },
     "llama_chroma_similarity": {
-      "avg_query_time": 5.424111175537109,
-      "avg_relevance_score": 0.4045015835350506,
-      "success_rate": 80.0,
-      "storage_size_mb": 6.645236968994141,
-      "memory_usage_mb": 1011.63671875,
+      "avg_query_time": 7.669863891601563,
+      "avg_relevance_score": 0.515828299306133,
+      "success_rate": 100.0,
+      "storage_size_mb": 6.641330718994141,
+      "memory_usage_mb": 1009.94140625,
       "total_questions": 5,
-      "successful_queries": 4,
+      "successful_queries": 5,
       "query_times": [
-        2.1309144496917725,
-        3.941950559616089,
-        0.0,
-        14.394241333007812,
-        6.653449535369873
+        18.78655433654785,
+        9.240146398544312,
+        3.316647529602051,
+        2.622652769088745,
+        4.3833184242248535
       ],
       "relevance_scores": [
         0.5456848719851912,
-        0.36186785826204904,
-        0.0,
+        0.36133590511937064,
+        0.5571655319980908,
         0.4772234795110802,
         0.6377317079169325
       ],
-      "cpu_usage_percent": 18.1,
+      "cpu_usage_percent": 18.0,
       "diversity_scores": [
         0.6644257160906746,
-        0.6186638721032094,
+        0.7130678973363624,
+        0.7142004328288536,
         0.7330741909662348,
         0.6677682014854693
       ],
-      "avg_diversity_score": 0.670982995161397,
-      "throughput_qps": 0.18436200284943044,
-      "index_build_time": 63.36640787124634
+      "avg_diversity_score": 0.6985072877415189,
+      "throughput_qps": 0.1303804101523877,
+      "index_build_time": 80.32469034194946
     }
   },
   "summary": {
     "fastest_query": "llama_chroma_mmr",
-    "most_relevant": "llama_faiss_similarity",
+    "most_relevant": "llama_faiss_mmr",
     "smallest_storage": "llama_faiss_mmr",
-    "lowest_memory": "llama_faiss_similarity",
+    "lowest_memory": "llama_faiss_mmr",
     "performance_ranking": [
       {
         "strategy": "llama_chroma_mmr",
-        "composite_score": 2.6237319216727855,
+        "composite_score": 2.269580558962481,
         "metrics": {
-          "avg_query_time": 0.10068349838256836,
-          "avg_relevance_score": 0.509040673489112,
+          "avg_query_time": 0.117802095413208,
+          "avg_relevance_score": 0.5094226182598193,
           "success_rate": 100.0,
-          "storage_size_mb": 6.645236968994141,
-          "memory_usage_mb": 1011.60546875,
+          "storage_size_mb": 6.641330718994141,
+          "memory_usage_mb": 1009.99609375,
           "total_questions": 5,
           "successful_queries": 5,
           "query_times": [
-            0.13091349601745605,
-            0.11135363578796387,
-            0.06739473342895508,
-            0.08157634735107422,
-            0.11217927932739258
+            0.1347060203552246,
+            0.13225364685058594,
+            0.10564160346984863,
+            0.09292793273925781,
+            0.12348127365112305
           ],
           "relevance_scores": [
             0.5425988665401746,
-            0.35275636496683216,
+            0.3546660888203689,
             0.5571655319980908,
             0.4772234795110802,
             0.615459124429382
           ],
-          "cpu_usage_percent": 15.0,
+          "cpu_usage_percent": 29.6,
           "diversity_scores": [
             0.6669830317384267,
-            0.7453199821351293,
+            0.7527225145580125,
             0.7142004328288536,
             0.7330741909662348,
             0.7593099323792054
           ],
-          "avg_diversity_score": 0.72377751400957,
-          "throughput_qps": 9.932114160359102,
-          "index_build_time": 63.36640787124634
+          "avg_diversity_score": 0.7252580204941466,
+          "throughput_qps": 8.488813348288538,
+          "index_build_time": 80.32469034194946
         }
       },
       {
-        "strategy": "llama_faiss_similarity",
-        "composite_score": 0.5108888351750127,
+        "strategy": "llama_faiss_mmr",
+        "composite_score": 0.5206523918162894,
         "metrics": {
-          "avg_query_time": 8.099650669097901,
+          "avg_query_time": 6.152871561050415,
           "avg_relevance_score": 0.6599691718816757,
           "success_rate": 100.0,
           "storage_size_mb": 0.7931861877441406,
-          "memory_usage_mb": 1011.4140625,
+          "memory_usage_mb": 1009.60546875,
           "total_questions": 5,
           "successful_queries": 5,
           "query_times": [
-            11.269487619400024,
-            1.3870856761932373,
-            23.278444051742554,
-            1.8536691665649414,
-            2.709566831588745
+            12.289043188095093,
+            1.6529262065887451,
+            7.200807332992554,
+            1.1720502376556396,
+            8.449530839920044
           ],
           "relevance_scores": [
             0.6971050202846527,
@@ -215,7 +217,7 @@
             0.6300842761993408,
             0.7746318876743317
           ],
-          "cpu_usage_percent": 12.3,
+          "cpu_usage_percent": 15.6,
           "diversity_scores": [
             0.6644257160906746,
             0.6186638721032094,
@@ -224,82 +226,84 @@
             0.6677682014854693
           ],
           "avg_diversity_score": 0.6796264826948883,
-          "throughput_qps": 0.1234621147076427,
-          "index_build_time": 66.67413258552551
+          "throughput_qps": 0.16252573941739823,
+          "index_build_time": 80.17547059059143
         }
       },
       {
-        "strategy": "llama_faiss_mmr",
-        "composite_score": 0.48733154206415774,
+        "strategy": "llama_faiss_similarity",
+        "composite_score": 0.51323563465043,
         "metrics": {
-          "avg_query_time": 5.928836393356323,
-          "avg_relevance_score": 0.5205481678247452,
-          "success_rate": 80.0,
+          "avg_query_time": 7.52728419303894,
+          "avg_relevance_score": 0.6599691718816757,
+          "success_rate": 100.0,
           "storage_size_mb": 0.7931861877441406,
-          "memory_usage_mb": 1011.42578125,
+          "memory_usage_mb": 1009.69921875,
           "total_questions": 5,
-          "successful_queries": 4,
+          "successful_queries": 5,
           "query_times": [
-            0.0,
-            9.548108339309692,
-            8.484949588775635,
-            8.852229595184326,
-            2.758894443511963
+            2.522030830383301,
+            7.101425647735596,
+            17.065649271011353,
+            6.362053632736206,
+            4.585261583328247
           ],
           "relevance_scores": [
-            0.0,
+            0.6971050202846527,
             0.4904991537332535,
             0.7075255215167999,
             0.6300842761993408,
             0.7746318876743317
           ],
-          "cpu_usage_percent": 9.4,
+          "cpu_usage_percent": 20.3,
           "diversity_scores": [
+            0.6644257160906746,
             0.6186638721032094,
             0.7142004328288536,
             0.7330741909662348,
             0.6677682014854693
           ],
-          "avg_diversity_score": 0.6834266743459417,
-          "throughput_qps": 0.16866716057818193,
-          "index_build_time": 66.67413258552551
+          "avg_diversity_score": 0.6796264826948883,
+          "throughput_qps": 0.13285003918475366,
+          "index_build_time": 80.17547059059143
         }
       },
       {
         "strategy": "llama_chroma_similarity",
-        "composite_score": 0.18506979515530508,
+        "composite_score": 0.1994328582613706,
         "metrics": {
-          "avg_query_time": 5.424111175537109,
-          "avg_relevance_score": 0.4045015835350506,
-          "success_rate": 80.0,
-          "storage_size_mb": 6.645236968994141,
-          "memory_usage_mb": 1011.63671875,
+          "avg_query_time": 7.669863891601563,
+          "avg_relevance_score": 0.515828299306133,
+          "success_rate": 100.0,
+          "storage_size_mb": 6.641330718994141,
+          "memory_usage_mb": 1009.94140625,
           "total_questions": 5,
-          "successful_queries": 4,
+          "successful_queries": 5,
           "query_times": [
-            2.1309144496917725,
-            3.941950559616089,
-            0.0,
-            14.394241333007812,
-            6.653449535369873
+            18.78655433654785,
+            9.240146398544312,
+            3.316647529602051,
+            2.622652769088745,
+            4.3833184242248535
           ],
           "relevance_scores": [
             0.5456848719851912,
-            0.36186785826204904,
-            0.0,
+            0.36133590511937064,
+            0.5571655319980908,
             0.4772234795110802,
             0.6377317079169325
           ],
-          "cpu_usage_percent": 18.1,
+          "cpu_usage_percent": 18.0,
           "diversity_scores": [
             0.6644257160906746,
-            0.6186638721032094,
+            0.7130678973363624,
+            0.7142004328288536,
             0.7330741909662348,
             0.6677682014854693
           ],
-          "avg_diversity_score": 0.670982995161397,
-          "throughput_qps": 0.18436200284943044,
-          "index_build_time": 63.36640787124634
+          "avg_diversity_score": 0.6985072877415189,
+          "throughput_qps": 0.1303804101523877,
+          "index_build_time": 80.32469034194946
         }
       }
     ]

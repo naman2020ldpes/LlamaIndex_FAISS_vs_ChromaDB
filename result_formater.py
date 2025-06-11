@@ -39,3 +39,11 @@ with open("results/list_metrics.json", "w") as f:
 print("✅ Exported:")
 print("- results/non_list_metrics.json")
 print("- results/list_metrics.json")
+
+
+from demo_chart_creation import generate_all_metric_charts_pdf
+
+generate_all_metric_charts_pdf(
+    json_path="results/non_list_metrics.json",
+    output_pdf_path="output/metric_report.pdf"  # change as needed
+)
